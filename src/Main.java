@@ -26,7 +26,7 @@ public class Main {
                 elementów listy
           */
 
-      /*  List<String> lista1 = new ArrayList<>();
+        List<String> lista1 = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         for(int i = 0;i<5;i++)
         {
@@ -49,7 +49,7 @@ public class Main {
 
         Collections.sort(lista1, Collections.reverseOrder());
 
-        wypisz(lista1);*/
+        wypisz(lista1);
 
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
