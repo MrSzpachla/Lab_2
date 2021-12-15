@@ -10,6 +10,20 @@ public class Main {
         */
 
 
+        int i = 1000;
+        do{
+            if(i%50 ==0)
+            {
+                System.out.println("liczba "+i+" podzielna przez 50");
+            }
+            else
+            {
+                System.out.println(i);
+            }
+
+        }while(--i > -1);
+
+
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
@@ -17,11 +31,43 @@ public class Main {
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
 
+        int a = 0;
+        System.out.println("\n\nA)");
+        int[] TabA = {5,8,21,684,14};
+        while(a<5)
+        {
+            System.out.print(TabA[a] + "  ");
+            a++;
+        }System.out.println("\n\nB)");
+        double[] TabB = {45.5,52.12,464.47,489.2,123.9};
+        a=0;
+        while(a<5)
+        {
+            System.out.print(TabB[a] + "  ");
+            a++;
+        }System.out.println("\n\nC)");
+        String[] TabC = {"Tak","Nie","Może","Albo","Wiem"};
+        a=0;
+        while(a<5)
+        {
+            System.out.print(TabC[a] + "  ");
+            a++;
+        }System.out.println("\n\n");
+
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
         */
 
+        while(true)
+        {
+            System.out.println("tak");
+        }
+       /* while(false)
+        {
+            System.out.println("nie");
+        }
+        */
 
     }
 }
